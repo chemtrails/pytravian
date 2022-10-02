@@ -68,8 +68,3 @@ class Bot():
                 )
                 title_text = title.text
                 print(title_text)
-
-
-if __name__ == '__main__':
-    bot = Bot('server', 'username', 'password')       #   server e.g. 'gos.x1.international'
-    bot.login()
